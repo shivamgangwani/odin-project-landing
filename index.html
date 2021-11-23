@@ -4,6 +4,7 @@
 <head>
     <meta charset='UTF-8'>
     <title>Project: Landing</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,8 +19,8 @@
                 <div class="header-logo">Header Logo</div>
 
                 <!-- Header Links -->
-                <div class="header-links container row push-right">
-                    <ul>
+                <div class="header-links push-right">
+                    <ul class="container row">
                         <li><a href="#">header link one</a></li>
                         <li><a href="#">header link two</a></li>
                         <li><a href="#">header link three</a></li>
@@ -38,7 +39,7 @@
                     </p>
                     <button class="sign-up">Sign Up</button>
                 </div>
-                <div class="hero-image">
+                <div class="hero-image container row halign valign">
                     <div>This is a placeholder for an image</div>
                 </div>
             </div>
@@ -54,25 +55,25 @@
             </div>
             <!-- Information cards -->
             <div class="information-cards container row valign halign">
-                <div class="info-card">
+                <div class="info-card container column valign halign">
                     <div class="card-img"></div>
                     <div class="card-text">
                         This is some subtext under an illustration or image
                     </div>
                 </div>
-                <div class="info-card">
+                <div class="info-card container column valign halign">
                     <div class="card-img"></div>
                     <div class="card-text">
                         This is some subtext under an illustration or image
                     </div>
                 </div>
-                <div class="info-card">
+                <div class="info-card container column valign halign">
                     <div class="card-img"></div>
                     <div class="card-text">
                         This is some subtext under an illustration or image
                     </div>
                 </div>
-                <div class="info-card">
+                <div class="info-card container column valign halign">
                     <div class="card-img"></div>
                     <div class="card-text">
                         This is some subtext under an illustration or image
@@ -89,21 +90,22 @@
                 This is an inspiring quote, or a testimonial from a customer. 
                 Maybe it's just filling up space, or maybe people will actually read it.
                 Who knows? All I know is that it looks nice.
+                <div class="quote-by">
+                    -Thor, God of Thunder
+                </div>
             </div>
-            <div class="quote-by">
-                -Thor, God of Thunder
-            </div>
+
         </div>
         <!-- End of Quote Section -->
 
         <!-- Call to Action - Informational section -->
-        <div class="information container column halign valign">
+        <div class="information cta container row halign valign">
             <div class="cta-modal container row">
                 <div class="modal-left">
                     <div class="modal-header">Call to action! It's time!</div>
-                    <div>Sign up for our product by clicking that button right over there! </div>
+                    <div class="modal-text">Sign up for our product by clicking that button right over there! </div>
                 </div>
-                <div class="modal-right">
+                <div class="modal-right container row valign halign">
                     <button class="modal sign-up">Sign Up</button>
                 </div>
             </div>
@@ -112,7 +114,7 @@
 
         <!-- Footer -->
         <div class="footer container row halign valign">
-            <div>Copyright © The Odin Project </div>
+            <div>Copyright © The Odin Project 2021</div>
         </div>
         <!-- End of Footer -->
     </div>
